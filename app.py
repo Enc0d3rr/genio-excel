@@ -77,6 +77,10 @@ if st.button("✨ Generar Solución", type="primary"):
             st.markdown("---")
             st.caption("Copia el código y pégalo en tu herramienta.")
 
+# --- SECCION DE MOETIZACION ---
+st.divider()
+st.write("¿Te sirvió? Invítame un café para seguir mejorando la IA:")
+st.link_button("Donar con PayPal", "https://paaypal.me/Hunterb0y7z")
+
 # Footer simple
-st.markdown("[![Invítame un café](https://img.shields.io/badge/Donate-Buy%20Me%20A%20Coffee-yellow.svg)](https://www.buymeacoffee.com/TU_USUARIO)")
-st.markdown("Hecho con Python")
+st.markdown("Power by Python")
