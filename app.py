@@ -21,7 +21,7 @@ except FileNotFoundError:
     st.stop()
 
 # Usamos el modelo Gemini 1.5 Flash (es el más rápido y barato/gratis para esto)
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-pro')
 
 def consultar_gemini(problema, herramienta):
     """Envía el prompt a Gemini y retorna la respuesta"""
@@ -76,11 +76,6 @@ if st.button("✨ Generar Solución", type="primary"):
             st.markdown(resultado)
             st.markdown("---")
             st.caption("Copia el código y pégalo en tu herramienta.")
-
-# --- SECCION DE MOETIZACION ---
-st.divider()
-st.write("¿Te sirvió? Invítame un café para seguir mejorando la IA:")
-st.link_button("Donar con PayPal", "https://paaypal.me/Hunterb0y7z")
 
 # Footer simple
 st.markdown("Power by Python")
