@@ -75,9 +75,3 @@ if st.button("✨ Generar Solución", type="primary"):
             st.markdown("### Solución:")
             st.success("¡Aquí tienes!")
             st.markdown(resultado)
-
-# --- MONETIZACIÓN ---
-st.divider()
-st.caption("¿Te ahorré tiempo de trabajo? Invítame un café:")
-# Reemplaza con TU link de PayPal que creamos
-st.link_button("☕ Donar con PayPal", "https://paypal.me/TU_LINK_AQUI")
